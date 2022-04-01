@@ -9,20 +9,46 @@
 /* Begin PBXBuildFile section */
 		1E1CDB6E27F67BC300B09F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB6D27F67BC300B09F10 /* AppDelegate.swift */; };
 		1E1CDB7027F67BC300B09F10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB6F27F67BC300B09F10 /* SceneDelegate.swift */; };
-		1E1CDB7227F67BC300B09F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB7127F67BC300B09F10 /* ViewController.swift */; };
+		1E1CDB7227F67BC300B09F10 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB7127F67BC300B09F10 /* MainViewController.swift */; };
 		1E1CDB7727F67BC500B09F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1CDB7627F67BC500B09F10 /* Assets.xcassets */; };
 		1E1CDB7A27F67BC500B09F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1CDB7827F67BC500B09F10 /* LaunchScreen.storyboard */; };
+		1E1CDB8527F67D2400B09F10 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1E1CDB8427F67D2400B09F10 /* RxCocoa */; };
+		1E1CDB8727F67D2400B09F10 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 1E1CDB8627F67D2400B09F10 /* RxRelay */; };
+		1E1CDB8927F67D2400B09F10 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1E1CDB8827F67D2400B09F10 /* RxSwift */; };
+		1E1CDB8C27F67D3000B09F10 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1E1CDB8B27F67D3000B09F10 /* SnapKit */; };
+		1E1CDB8E27F67D7600B09F10 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB8D27F67D7600B09F10 /* MainViewModel.swift */; };
+		1E1CDB9127F67FEB00B09F10 /* TitleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB9027F67FEB00B09F10 /* TitleTextFieldCell.swift */; };
+		1E1CDB9327F6800400B09F10 /* TitleTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB9227F6800400B09F10 /* TitleTextFieldCellViewModel.swift */; };
+		1E1CDB9727F68B7F00B09F10 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB9627F68B7F00B09F10 /* Category.swift */; };
+		1E1CDB9A27F68BE800B09F10 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB9927F68BE800B09F10 /* CategoryViewModel.swift */; };
+		1E1CDB9C27F68D6700B09F10 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB9B27F68D6700B09F10 /* CategoryListViewController.swift */; };
+		1E1CDB9F27F68FBD00B09F10 /* PriceTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDB9E27F68FBD00B09F10 /* PriceTextFieldCellViewModel.swift */; };
+		1E1CDBA127F690B000B09F10 /* PriceTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDBA027F690B000B09F10 /* PriceTextFieldCell.swift */; };
+		1E1CDBA427F693BE00B09F10 /* DetailWriteFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDBA327F693BE00B09F10 /* DetailWriteFormCell.swift */; };
+		1E1CDBA627F693CD00B09F10 /* DetailWriteFormCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDBA527F693CD00B09F10 /* DetailWriteFormCellViewModel.swift */; };
+		1E1CDBA927F6984900B09F10 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1CDBA827F6984900B09F10 /* MainModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E1CDB6A27F67BC300B09F10 /* UploadUsedThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadUsedThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1CDB6D27F67BC300B09F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E1CDB6F27F67BC300B09F10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E1CDB7127F67BC300B09F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E1CDB7127F67BC300B09F10 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1E1CDB7627F67BC500B09F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E1CDB7927F67BC500B09F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E1CDB7B27F67BC500B09F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E1CDB8227F67C2F00B09F10 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		1E1CDB8D27F67D7600B09F10 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1E1CDB9027F67FEB00B09F10 /* TitleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCell.swift; sourceTree = "<group>"; };
+		1E1CDB9227F6800400B09F10 /* TitleTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCellViewModel.swift; sourceTree = "<group>"; };
+		1E1CDB9627F68B7F00B09F10 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1E1CDB9927F68BE800B09F10 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		1E1CDB9B27F68D6700B09F10 /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		1E1CDB9E27F68FBD00B09F10 /* PriceTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCellViewModel.swift; sourceTree = "<group>"; };
+		1E1CDBA027F690B000B09F10 /* PriceTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCell.swift; sourceTree = "<group>"; };
+		1E1CDBA327F693BE00B09F10 /* DetailWriteFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCell.swift; sourceTree = "<group>"; };
+		1E1CDBA527F693CD00B09F10 /* DetailWriteFormCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCellViewModel.swift; sourceTree = "<group>"; };
+		1E1CDBA827F6984900B09F10 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +56,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1CDB8927F67D2400B09F10 /* RxSwift in Frameworks */,
+				1E1CDB8C27F67D3000B09F10 /* SnapKit in Frameworks */,
+				1E1CDB8727F67D2400B09F10 /* RxRelay in Frameworks */,
+				1E1CDB8527F67D2400B09F10 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +88,79 @@
 			children = (
 				1E1CDB6D27F67BC300B09F10 /* AppDelegate.swift */,
 				1E1CDB6F27F67BC300B09F10 /* SceneDelegate.swift */,
-				1E1CDB7127F67BC300B09F10 /* ViewController.swift */,
+				1E1CDB9827F68B8200B09F10 /* Entity */,
+				1E1CDB9527F6871500B09F10 /* Presentation */,
 				1E1CDB7627F67BC500B09F10 /* Assets.xcassets */,
 				1E1CDB7827F67BC500B09F10 /* LaunchScreen.storyboard */,
 				1E1CDB7B27F67BC500B09F10 /* Info.plist */,
 			);
 			path = UploadUsedThing;
+			sourceTree = "<group>";
+		};
+		1E1CDB8F27F67FD000B09F10 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E1CDB7127F67BC300B09F10 /* MainViewController.swift */,
+				1E1CDB8D27F67D7600B09F10 /* MainViewModel.swift */,
+				1E1CDBA827F6984900B09F10 /* MainModel.swift */,
+				1E1CDB9427F6800800B09F10 /* TitleTextFieldCell */,
+				1E1CDB9D27F68FA900B09F10 /* CategoryViewController */,
+				1E1CDBA227F692F900B09F10 /* PriceTextFieldCell */,
+				1E1CDBA727F693D100B09F10 /* DetailWriteFormCell */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		1E1CDB9427F6800800B09F10 /* TitleTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E1CDB9027F67FEB00B09F10 /* TitleTextFieldCell.swift */,
+				1E1CDB9227F6800400B09F10 /* TitleTextFieldCellViewModel.swift */,
+			);
+			path = TitleTextFieldCell;
+			sourceTree = "<group>";
+		};
+		1E1CDB9527F6871500B09F10 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1E1CDB8F27F67FD000B09F10 /* MainViewController */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1E1CDB9827F68B8200B09F10 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1E1CDB9627F68B7F00B09F10 /* Category.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1E1CDB9D27F68FA900B09F10 /* CategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E1CDB9927F68BE800B09F10 /* CategoryViewModel.swift */,
+				1E1CDB9B27F68D6700B09F10 /* CategoryListViewController.swift */,
+			);
+			path = CategoryViewController;
+			sourceTree = "<group>";
+		};
+		1E1CDBA227F692F900B09F10 /* PriceTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E1CDB9E27F68FBD00B09F10 /* PriceTextFieldCellViewModel.swift */,
+				1E1CDBA027F690B000B09F10 /* PriceTextFieldCell.swift */,
+			);
+			path = PriceTextFieldCell;
+			sourceTree = "<group>";
+		};
+		1E1CDBA727F693D100B09F10 /* DetailWriteFormCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E1CDBA327F693BE00B09F10 /* DetailWriteFormCell.swift */,
+				1E1CDBA527F693CD00B09F10 /* DetailWriteFormCellViewModel.swift */,
+			);
+			path = DetailWriteFormCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +180,12 @@
 			dependencies = (
 			);
 			name = UploadUsedThing;
+			packageProductDependencies = (
+				1E1CDB8427F67D2400B09F10 /* RxCocoa */,
+				1E1CDB8627F67D2400B09F10 /* RxRelay */,
+				1E1CDB8827F67D2400B09F10 /* RxSwift */,
+				1E1CDB8B27F67D3000B09F10 /* SnapKit */,
+			);
 			productName = UploadUsedThing;
 			productReference = 1E1CDB6A27F67BC300B09F10 /* UploadUsedThing.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +214,10 @@
 				Base,
 			);
 			mainGroup = 1E1CDB6127F67BC300B09F10;
+			packageReferences = (
+				1E1CDB8327F67D2400B09F10 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				1E1CDB8A27F67D3000B09F10 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1E1CDB6B27F67BC300B09F10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -158,9 +265,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E1CDB7227F67BC300B09F10 /* ViewController.swift in Sources */,
+				1E1CDB7227F67BC300B09F10 /* MainViewController.swift in Sources */,
+				1E1CDB9327F6800400B09F10 /* TitleTextFieldCellViewModel.swift in Sources */,
+				1E1CDB9F27F68FBD00B09F10 /* PriceTextFieldCellViewModel.swift in Sources */,
+				1E1CDB9C27F68D6700B09F10 /* CategoryListViewController.swift in Sources */,
 				1E1CDB6E27F67BC300B09F10 /* AppDelegate.swift in Sources */,
 				1E1CDB7027F67BC300B09F10 /* SceneDelegate.swift in Sources */,
+				1E1CDBA127F690B000B09F10 /* PriceTextFieldCell.swift in Sources */,
+				1E1CDBA627F693CD00B09F10 /* DetailWriteFormCellViewModel.swift in Sources */,
+				1E1CDB9A27F68BE800B09F10 /* CategoryViewModel.swift in Sources */,
+				1E1CDB9127F67FEB00B09F10 /* TitleTextFieldCell.swift in Sources */,
+				1E1CDBA927F6984900B09F10 /* MainModel.swift in Sources */,
+				1E1CDB8E27F67D7600B09F10 /* MainViewModel.swift in Sources */,
+				1E1CDBA427F693BE00B09F10 /* DetailWriteFormCell.swift in Sources */,
+				1E1CDB9727F68B7F00B09F10 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +490,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E1CDB8327F67D2400B09F10 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		1E1CDB8A27F67D3000B09F10 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E1CDB8427F67D2400B09F10 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E1CDB8327F67D2400B09F10 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		1E1CDB8627F67D2400B09F10 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E1CDB8327F67D2400B09F10 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		1E1CDB8827F67D2400B09F10 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E1CDB8327F67D2400B09F10 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		1E1CDB8B27F67D3000B09F10 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E1CDB8A27F67D3000B09F10 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E1CDB6227F67BC300B09F10 /* Project object */;
 }
